@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1360px) {
+  .player-page__title {
+    text-align: center;
+  }
+
+  .player-page__content,
+  .player-page__sidebar {
+    margin: 0 auto;
+  }
+
+  .player-page__sidebar {
+    width: 930px;
+
+    .accordion-panel__item {
+      margin-top: 20px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1360px) and (max-width: 1425px) {
+  body {
+    zoom: .9;
+  }
+}

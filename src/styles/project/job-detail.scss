@@ -1,0 +1,16 @@
+.job-detail {
+  border-radius: 3px;
+
+  &__btn.open {
+    padding: 15px 0;
+    background: transparent;
+  }
+
+  &__content {
+    margin-bottom: 35px;
+  }
+
+  &__content .btn-accordion {
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,151 @@
+// BUTTONS__TYPES
+.btn {
+  display: inline-flex;
+  align-items: center;
+
+  text-decoration: none;
+  cursor: pointer;
+  transition: all .4s;
+}
+
+.btn-accordion {
+  width: 100%;
+  padding: 15px 22px;
+
+  text-align: left;
+  border: none;
+  border-radius: 3px;
+  background: #0B0926;
+
+  &__icon {
+    opacity: .2;
+    transition: all .4s;
+  }
+
+  &__text {
+    margin-left: 15px;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    transition: all .4s;
+  }
+
+  &__text_deep {
+    font-weight: normal;
+  }
+
+  &.open .btn-accordion__icon {
+    transform: rotate(180deg);
+  }
+
+  &__inner {
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
+.btn-edit {
+  padding: 10px 5px;
+}
+
+.btn-more {
+  padding: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.btn-save {
+  padding: 3px 13px;
+
+  border: 1px solid #53507B;
+  box-sizing: border-box;
+  border-radius: 50px;
+  opacity: 0.5;
+
+  &__text {
+    margin-left: 6px;
+    color: rgba(255, 255, 255, .3);
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+}
+
+.btn-tab {
+  padding: 15px 25px;
+  font-weight: bold;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.btn-shot-open {
+  color: #fff;
+
+  &__icon {
+    opacity: .2;
+  }
+}
+
+.btn-shot-close {
+  color: #fff;
+
+  &__icon {
+    opacity: .2;
+  }
+
+  &__text {
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: capitalize;
+
+    margin-left: 12px;
+  }
+}
+// END --> BUTTONS__TYPES
+
+
+// BUTTONS__STATE
+.btn-accordion.open .btn-accordion__icon {
+  transform: rotate(180deg);
+}
+
+.btn-tab.active {
+  background: rgba(0, 0, 0, 0.25);
+}
+// END -->
+
+
+// BUTTONS__HOVER
+.btn-accordion:hover {
+  background: lighten(#0B0926, 5%);
+}
+
+.btn-edit:hover .dot,
+.btn-more:hover .dot {
+  background-color: #fff;
+}
+
+.btn-tab:hover {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.btn-save:hover {
+  opacity: 1;
+}
+
+.btn-shot-open:hover {
+  transform: translateX(7px);
+
+  .btn-shot-open__icon {
+    opacity: .7;
+  }
+}
+
+.btn-shot-close:hover {
+  opacity: .7;
+  transform: translateX(-7px);
+
+  .btn-shot-close__icon {
+    opacity: .7;
+  }
+}
+// END --> BUTTONS__HOVER

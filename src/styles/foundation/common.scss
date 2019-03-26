@@ -1,0 +1,103 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover,
+button:hover {
+  cursor: pointer;
+}
+
+a,
+button,
+label,
+input,
+select {
+  outline: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.svg {
+  transition: all .4s;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.d-inl-flex {
+  display: inline-flex !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.disabled {
+  color: rgba(255, 255, 255, .3) !important;
+}
+
+.pointer-disabled {
+  pointer-events: none;
+}
+
+.material-icons {
+  transition: all .4s;
+}
+
+.img-responsive {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.title-primary {
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.title-secondary {
+  font-weight: bold;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,40 @@
+/* --------------------------------------------------------
+   Components
+   -------------------------------------------------------- */
+
+// Foundation
+@import
+  'foundation/reset',
+  'foundation/typography',
+  'foundation/common';
+
+// Base
+@import
+  'base/animation',
+  'base/buttons';
+
+// Components
+@import
+  'components/accordion-panel',
+  'components/chip',
+  'components/content-list',
+  'components/dots',
+  'components/player-timeline',
+  'components/player-info',
+  'components/player-elements',
+  'components/progress',
+  'components/recognition-models',
+  'components/recognized-concepts',
+  'components/shot-detail',
+  'components/slider-range',
+  'components/toggle-button',
+  'components/tooltip',
+  'components/video-player';
+
+// Project
+@import
+  'project/job-detail',
+  'project/header',
+  'project/main',
+  'project/player-page',
+  'base/media';

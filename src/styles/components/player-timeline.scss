@@ -1,0 +1,130 @@
+.player-timeline {
+  position: relative;
+
+  .models__item .btn-accordion,
+  .sub-models__item .btn-accordion {
+    padding-right: 20px;
+  }
+
+  .timeline {
+    position: relative;
+    width: 690px;
+    height: 30px;
+  }
+
+  .accordion-panel {
+    overflow: inherit;
+  }
+
+  .deep-level {
+    height: 325px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    &::-webkit-scrollbar{
+      width: 0;
+    }
+  }
+
+  .btn-accordion__text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .btn-accordion__inner {
+    width: 180px;
+  }
+}
+
+.timeline-indicator-wrapper {
+  position: absolute;
+  top: 0;
+  right: 20px;
+
+  width: 690px;
+  height: 100%;
+}
+
+.timeline-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+
+  width: 1px;
+  height: inherit;
+
+  background: #25ACFA;
+  border-radius: 5px;
+}
+
+.sub-models__content.deep-level > .sub-models__item:nth-child(1) .tooltip__text {
+  top: 100px;
+}
+
+.sub-models__content.deep-level > .sub-models__item:nth-child(2) .tooltip__text {
+  top: -30px;
+}
+
+.deep-level + .btn-more {
+  display: none;
+}
+
+.deep-level.d-block + .btn-more {
+  display: inline-flex;
+}
+
+.model {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+
+  border-radius: 50%;
+  background-color: #EFA044;
+}
+
+.model.model_face {
+  background-color: burlywood;
+}
+
+.model.model_actors {
+  background-color: #EFA044;
+}
+
+.model.model_sportsmen {
+  background-color: #D23E10;
+}
+
+.model.model_celebrities {
+  background-color: #BD4F10;
+}
+
+.model.model_politicians {
+  background-color: darkred;
+}
+
+.model.model_setting {
+  background-color: #64C911;
+}
+
+.model.model_sensitive {
+  background-color: blueviolet;
+}
+
+.model.model_object {
+  background-color: #4948FE;
+}
+
+.model.model_vehicles {
+  background-color: #2290D0;
+}
+
+.model.model_land-vehicles {
+  background-color: #25ACFA;
+}
+
+.model.model_air-vehicles {
+  background-color: darkturquoise;
+}

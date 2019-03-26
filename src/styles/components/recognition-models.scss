@@ -1,0 +1,83 @@
+.models__item {
+  position: relative;
+
+  & > .btn-accordion {
+    padding-left: 16px;
+    padding-right: 10px;
+
+    justify-content: space-between;
+    background: #232140;
+    box-shadow: 0 2px 34px rgba(0, 0, 0, 0.5);
+  }
+
+  .btn-accordion__icon {
+    color: rgba(200, 200, 200, 1);
+  }
+
+  .btn-accordion:hover {
+    background-color: lighten(#232140, 10%);
+  }
+
+  &:not(:first-child) {
+    margin-top: 4px;
+  }
+}
+
+.sub-models__item {
+  margin-top: 4px;
+
+  .btn-accordion {
+    padding-right: 10px;
+    justify-content: space-between;
+    box-shadow: 0 2px 34px rgba(0, 0, 0, 0.5);
+  }
+
+  .btn-accordion__text {
+    margin-left: 11px;
+    font-size: 14px;
+  }
+}
+
+.btn-accordion.pl-sm {
+  padding-left: 30px;
+}
+
+.btn-accordion.pl-md {
+  padding-left: 45px;
+}
+
+.btn-accordion.pl-lg {
+  padding-left: 60px;
+}
+
+.btn-accordion.bg-dark {
+  background: #181533;
+}
+
+.btn-accordion.bg-dark-2 {
+  background: #12102A;
+}
+
+.btn-accordion.bg-dark-3 {
+  background: #100E26;
+}
+
+.btn-accordion.bg-deep {
+  background: #0D0B23
+}
+
+.models__item,
+.sub-models__item {
+  animation: fadeEffect .5s ease-in;
+}
+
+.deep-level {
+  height: 325px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+
+  &::-webkit-scrollbar{
+    width: 0;
+  }
+}

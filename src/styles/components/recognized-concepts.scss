@@ -1,0 +1,45 @@
+.concepts__content {
+  padding: 15px 28px;
+}
+
+.concepts-list__item:not(:first-child) {
+  margin-top: 5px;
+}
+
+.concept {
+  display: flex;
+
+  &__title {
+    display: inline-flex;
+    min-width: 80px;
+    padding-top: 6px;
+
+    white-space: nowrap;
+    font-weight: bold;
+    opacity: 0.5;
+  }
+
+  &__title_lg {
+    width: 115px;
+  }
+
+  &__match {
+    flex-grow: 1;
+  }
+
+  &-match {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &-match__item {
+    margin: 5px 2.5px;
+  }
+}
+
+.border-t-b {
+  padding: 10px 0;
+
+  border-top: 1px solid #24213F;
+  border-bottom: 1px solid #24213F;
+}

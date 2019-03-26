@@ -1,0 +1,14 @@
+.dot {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+
+  border-radius: 50%;
+  background-color: #545367;
+
+  transition: all .4s;
+}
+
+.dot:not(:first-child) {
+  margin-left: 5px;
+}

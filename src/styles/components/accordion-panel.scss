@@ -1,0 +1,15 @@
+.accordion-panel {
+  display: none;
+  overflow: hidden;
+  animation: fadeEffect .5s ease-in;
+}
+
+.accordion-panel__item {
+  padding: 5px;
+  border-radius: 3px;
+  background: #0B0926;
+
+  &:not(:first-child) {
+    margin-top: 4px;
+  }
+}
