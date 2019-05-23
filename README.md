@@ -1,1 +1,1 @@
-# Demo: [Github Pages](https://mr-sychevskyi.github.io/project-metaliquid/src/index.html)
+# Demo: [Github Pages](https://mr-sychevskyi.gitlab.io/project-metaliquid/src/index.html)
